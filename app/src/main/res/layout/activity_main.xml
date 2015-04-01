@@ -1,0 +1,212 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/tile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile1"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile2"
+        android:layout_toRightOf="@id/tile1"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile3"
+        android:layout_toRightOf="@id/tile2"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile4"
+        android:layout_toRightOf="@id/tile3"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile5"
+        android:layout_below="@id/tile1"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile6"
+        android:layout_toRightOf="@id/tile5"
+        android:layout_below="@id/tile1"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile7"
+        android:layout_toRightOf="@id/tile6"
+        android:layout_below="@id/tile1"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile8"
+        android:layout_toRightOf="@id/tile7"
+        android:layout_below="@id/tile1"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile9"
+        android:layout_below="@id/tile5"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile10"
+        android:layout_toRightOf="@id/tile9"
+        android:layout_below="@id/tile5"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile11"
+        android:layout_toRightOf="@id/tile10"
+        android:layout_below="@id/tile5"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile12"
+        android:layout_toRightOf="@id/tile11"
+        android:layout_below="@id/tile5"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile13"
+        android:layout_below="@id/tile9"
+
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile15"
+        android:layout_toRightOf="@id/tile13"
+        android:layout_below="@id/tile9"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile15"
+        android:layout_toRightOf="@id/tile14"
+        android:layout_below="@id/tile9"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile16"
+        android:layout_toRightOf="@id/tile15"
+        android:layout_below="@id/tile9"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile17"
+        android:layout_below="@id/tile13"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/tile18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tile18"
+        android:layout_below="@id/tile13"
+        android:layout_toRightOf="@id/tile17"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/dora1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/dora1"
+        android:layout_below="@id/tile17"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/dora2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/dora2"
+        android:layout_below="@id/tile17"
+        android:layout_toRightOf="@id/dora1"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/dora3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/dora3"
+        android:layout_below="@id/tile17"
+        android:layout_toRightOf="@id/dora2"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/dora4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/dora4"
+        android:layout_below="@id/tile17"
+        android:layout_toRightOf="@id/dora3"
+        android:inputType="text" />
+    <CheckBox
+        android:id="@+id/closed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/dora1"
+        android:text= "@string/closed"
+        />
+    <CheckBox
+        android:id="@+id/riichi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/riichi"
+        android:layout_below="@id/dora1"
+        android:layout_toRightOf="@id/closed"
+        />
+    <CheckBox
+        android:id="@+id/tsumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dora1"
+        android:layout_toRightOf="@id/riichi"/>
+    <CheckBox
+        android:id="@+id/special1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/closed"
+        />
+    <CheckBox
+        android:id="@+id/special2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/closed"
+        android:layout_toRightOf="@id/special1"
+        />
+
+
+</RelativeLayout>

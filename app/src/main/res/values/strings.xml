@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RiichiHandCalculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tile1">Tile 1</string>
+    <string name="tile2">Tile 2</string>
+    <string name="tile3">Tile 3</string>
+    <string name="tile4">Tile 4</string>
+    <string name="tile5">Tile 5</string>
+    <string name="tile6">Tile 6</string>
+    <string name="tile7">Tile 7</string>
+    <string name="tile8">Tile 8</string>
+    <string name="tile9">Tile 9</string>
+    <string name="tile10">Tile 10</string>
+    <string name="tile11">Tile 11</string>
+    <string name="tile12">Tile 12</string>
+    <string name="tile13">Tile 13</string>
+    <string name="tile14">Tile 14</string>
+    <string name="tile15">Tile 15</string>
+    <string name="tile16">Tile 16</string>
+    <string name="tile17">Tile 17</string>
+    <string name="tile18">Tile 18</string>
+    <string name="dora1">Dora 1</string>
+    <string name="dora2">Dora 2</string>
+    <string name="dora3">Dora 3</string>
+    <string name="dora4">Dora 4</string>
+    <string name="closed">Closed</string>
+    <string name="tsumo">Tsumo</string>
+    <string name="richii">Richii</string>
+
+</resources>
